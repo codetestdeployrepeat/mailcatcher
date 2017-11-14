@@ -8,7 +8,8 @@ RUN apk add --no-cache \
     build-base \
     sqlite \
     sqlite-dev && \
-    gem install --no-rdoc --no-ri bundler json mailcatcher
+    gem install --no-rdoc --no-ri bundler json && \
+    gem install --no-rdoc --no-ri mailcatcher -v 0.5.12
 
 EXPOSE 1080
 EXPOSE 1025
