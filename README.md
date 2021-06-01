@@ -22,4 +22,3 @@ You can link this container into another containers to provide SMTP functionalit
 ... --link mailcatcher:mailcatcher ...
 ~~~
 
-
